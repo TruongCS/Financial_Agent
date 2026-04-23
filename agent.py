@@ -2,7 +2,7 @@
 import re
 import sqlite3
 import pandas as pd
-from langchain.tools import tool 
+from langchain_core.tools import tool 
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_classic.agents import create_tool_calling_agent, AgentExecutor
